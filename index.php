@@ -18,4 +18,11 @@ class Movie {
     }
 }
 
+$movie_1 = new Movie("Il Signore degli Anelli", "Fantasy", 2001, "Peter Jackson");
+$movie_2 = new Movie("Matrix", "Sci-Fi", 1999, "Lana e Lilly Wachowski");
+
+echo $movie_1->getDescription();
+echo "<br>";
+echo $movie_2->getDescription();
+
 ?>
