@@ -12,6 +12,10 @@ class Movie {
         $this->year = $year;
         $this->director = $director;
     }
+
+    public function getDescription() {
+        return "{$this->title} è un film di genere {$this->genre} uscito nel {$this->year} e diretto da {$this->director}.";
+    }
 }
 
 ?>
